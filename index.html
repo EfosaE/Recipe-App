@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shantell Sans">
+    <title>Recipe App</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="flex">
+                <h1>RECIPE APP</h1>
+                <a href="./README.md" target="blank" id="about">About this app</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <form>
+                <input type="text" placeholder="add new recipe" id="recipe-input"><input type="submit" value="add" id="add-recipe">
+                <input type="text" placeholder="search" id="filter-recipe">
+            </form>
+        </div>
+        <div class="container">
+            <div id="recipe-data"></div>
+        </div>
+    </section>
+
+    <script src="uuid.js" ></script>
+    <script src="app-functions.js" ></script>
+    <script src="recipe.js" ></script>
+   
+</body>
+</html>

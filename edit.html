@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shantell Sans">
+    <link rel="import" href="index.html">
+    <title>Recipe App-edit</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="flex">
+                <h1>RECIPE APP-EDIT</h1>
+                <a href="./index.html" id="about">HOME</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 id="recipe-title"></h2>
+        <p>Steps:</p>
+        <textarea name="cooking-steps" id="cooking-steps" cols="100" rows="10"></textarea>
+        <h3>Ingredients</h3>
+        <div id="ingredients-data"></div>
+        <form action="" id="ingredients-form">
+            <input type="text" placeholder="add ingredients" id="ingredient-input"><input type="submit" value="add" id="add-ingredient">
+        </form>
+        <button id="delete-recipe">Delete Recipe</button>
+    </div>
+</body>
+    
+    <script src="uuid.js" ></script>
+    <script src="app-functions.js"></script>
+    <script src="app-edit.js"></script>
+</html>
+

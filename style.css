@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Shantell Sans, monospace;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    height: fit-content;
+}
+
+nav {
+    background-color: rgb(241, 150, 13);
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+nav .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+input:focus {
+    outline-color: #F99417;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover, .recipe-card p:first-child:hover {
+    color: rgb(93, 92, 92);
+}
+.btn, #delete-recipe {
+    padding: 5px 10px;
+    border: none;
+    background-color: #FFB84C;
+    color: black;
+     border-radius: 4px;
+}
+.btn:hover {
+    color: rgb(93, 92, 92);
+    background-color: rgb(233, 166, 67);
+}
+section button {
+    margin-left: 10px;
+}
+
+.recipe-card {
+    border: solid 1px black;
+    margin: 20px;
+    margin-left: 0;
+    padding: 20px;
+}
+.recipe-card p {
+    cursor: pointer;
+}
+.recipe-card p:first-child {
+    color:  rgb(241, 150, 13);
+}
+
+input[type=submit]{
+    color: black;
+    background-color:  #FFB84C;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+/* EDIT.HTML STYLING */
+#recipe-title, h3 {
+    padding: 10px;
+    padding-left: 0px;
+}
+button {
+    border: none;
+    padding: 0px 4px;
+}
+label input[type = checkbox] {
+    margin-right: 4px;
+}
+#ingredients-form {
+    margin: 8px;
+    margin-left: 0px;
+}
+input[type = text] {
+   padding: 3px;
+   margin-right: 2px;
+}
+#cooking-steps:focus {
+    outline-color: #FFB84C;
+}
